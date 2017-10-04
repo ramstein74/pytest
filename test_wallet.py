@@ -12,7 +12,7 @@ def my_wallet():
     (30, 10, 20),
     (20, 2, 18),
     (20, 1, 19),
-    (20, 20, 10),
+    (20, 20, 0),
 ])
 def test_transactions(my_wallet, earned, spent, expected):
     my_wallet.add_cash(earned)
